@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="34dp"
+        android:layout_y="39dp"
+        android:text="@string/title"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="50dp"
+        android:layout_y="125dp"
+        android:text="Número: " />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="141dp"
+        android:layout_y="106dp"
+        android:hint="@string/digite" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="120dp"
+        android:layout_y="169dp"
+        android:onClick="fiboCalc"
+        android:text="@string/calcular" />
+
+    <TextView
+        android:id="@+id/nFibonnaci"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="67dp"
+        android:layout_y="224dp"
+        android:text="@string/fibonnaci"
+        android:textColor="@color/fibonnaci"
+        android:textSize="40dp" />
+</AbsoluteLayout>

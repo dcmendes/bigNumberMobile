@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BigNumber</string>
+    <string name="calcular">Calcular</string>
+    <string name="fibonnaci">Fibonnaci</string>
+    <string name="title">Malloc Fibonnaci</string>
+    <string name="number">Número</string>
+    <string name="digite">Digite aqui</string>
+
+</resources>
